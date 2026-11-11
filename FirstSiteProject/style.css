@@ -1,0 +1,238 @@
+body {
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#ortala {
+    width: 75%;
+    height: 2000px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 50px;
+
+}
+
+header h1 {
+    color: wheat;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+header h4 {
+    color: wheat;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+
+main {
+    width: 100%;
+    height: 1000px;
+}
+
+.banner {
+    background: url(./images/banner.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+    opacity: 0.4;
+
+}
+
+.overlay {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    z-index: 1000;
+
+}
+
+.firstStep {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 25px;
+}
+
+.firstStep h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 18px;
+
+}
+
+.firstStep hr {
+    width: 15%;
+}
+
+.firstStep h4 {
+    color: gray;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+.firstStepInfo {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+
+}
+
+.firstStepInfo p {
+    color: gray;
+    padding: 0px 60px 0px 60px;
+    letter-spacing: 0.8px;
+    font-size: 17px;
+}
+
+.secondStep {
+    width: 100%;
+    height: auto;
+
+    background-color: #333333;
+    padding-top: 100px;
+    padding-bottom: 75px;
+
+
+}
+
+.imageInfo {
+    width: 86%;
+    background-color: black;
+    margin: auto;
+    height: 800px;
+}
+
+.imageInfo h1 {
+    color: wheat;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+.imageInfo hr {
+    width: 15%;
+
+}
+
+.imageInfo h4 {
+    color: gray;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+.imageInfo img {
+    width: 48%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.imageInfo a {
+    margin: 0;
+    padding: 0;
+}
+
+.imageInfo img:hover {
+    cursor: pointer;
+}
+
+.imageGallery {
+    padding-left: 35px;
+}
+
+.thirdStep {
+    width: 100%;
+    height: auto;
+    background-color: #fff !important;
+    padding-bottom: 2px;
+
+}
+
+.informationCards {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+}
+
+.informationCards img {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+.card {
+    width: 49.7%;
+    height: 400px;
+    float: right;
+
+}
+
+.cardAuto h2 {
+    padding-top: 60px;
+}
+
+.cardAuto {
+    width: 80%;
+    margin: auto;
+}
+
+.cardAuto p {
+    color: gray;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+
+}
+
+.icons {
+    padding-top: 20px;
+}
+
+.fa-brands {
+    margin-left: 10px;
+    font-size: 25px;
+    color: wheat;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    color: #fff;
+}
+
+footer p {
+    color: wheat;
+    padding-bottom: 20px;
+}
